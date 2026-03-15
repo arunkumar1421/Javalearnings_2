@@ -5,8 +5,8 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 /*Hashset is a one of the collection concept
-it is a class which imlements a set collection interface
-and which allows tostore both heterogeneous and homogeneous data
+it is a class which implements a set collection interface
+and which allows to store both heterogeneous and homogeneous data
 insertion order of elements is not preseved in the set collection
 duplicate elements are not allowed additionally it not allows to store multiple null values but it store single null value
 */
@@ -40,7 +40,7 @@ public class HashsetDemo {
 		System.out.println("set of elements from set1 after removing :"+ set1);
 		System.out.println("Size of a set1: "+ set1.size());
 		
-		// directly we can;t aces element from set but indirectly we can bu converting set into list
+		// directly we can't access element from set but indirectly we can do that by converting set into list
 		
 		ArrayList <Object> list= new ArrayList(set1);
 		

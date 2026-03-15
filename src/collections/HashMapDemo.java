@@ -45,12 +45,11 @@ public class HashMapDemo {
 			System.out.println(it.next());
 		}
 		
-		// if you change the value of specifi elemnt add it again it overirde the older value
+		// if you change the value of specifi elemEnt add it again it overirde the older value
 		hm.put(4, "HashMap");
 		System.out.println("Elements in HashMap: "+ hm);
 		hm.put(4, "HashMap collection");
 		System.out.println("Elements in HashMap: "+ hm);
-		
 		
 		
 
