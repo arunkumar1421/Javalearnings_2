@@ -6,6 +6,7 @@ package oopsConcept;
  * Static methods can access static stuff directly without object
 static methods can access non-static methods through object
 Non-static methods can access everything
+Ststic methods cant access non static variables/ methods
 static methods can static stuff through class name.*/
 public class StaticKeyword {
 	
@@ -18,6 +19,16 @@ public class StaticKeyword {
 		System.out.println("employee name :"+ emp_name+" and empployee dept no :"+dept_no+" employeed id: "+emp_id);
 		
 	}
+
+	
+	/*
+	 * static int a=10; // static variable 
+	 int b=20;
+	 * static void m1() { 
+	        System.out.println(a);
+	 * System.out.println("this is static method."); 
+	 //System.out.println(b); //static methods can't access non static properties
+	 }*/
 	
 	public static void main(String args[])
 	{
